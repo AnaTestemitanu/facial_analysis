@@ -1,6 +1,6 @@
-# Frame Analysis API
+# Facial Analysis API
 
-Frame Analysis API includes four endpoints for merging images, detecting faces, moderation, and detecting custom labels. 
+Facial Analysis API includes four endpoints for merging images, detecting faces, moderation, and detecting custom labels. 
 
 ```mermaid
 graph LR
@@ -17,7 +17,7 @@ B -- merged image 32 Users 4x8 --> D(moderation_detection.py)
 B -- merged image 32 Users 4x8 --> E(detect_custom.py)
 ```
 
-The **Frame Analysis API** specifically uses the following AWS Rekognition APIs:
+The **Facial Analysis API** specifically uses the following AWS Rekognition APIs:
 
 * *DetectFaces API*: This API is used to detect faces in images. It can extract facial features such as emotions, age range, gender, and facial landmarks.
 
