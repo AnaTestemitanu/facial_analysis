@@ -118,7 +118,7 @@ def show_custom_labels(bucket,photo, min_confidence,model):
 
 #     bucket='rekognition.bucket.crowd'
 #     photo='32_grid_moderation_test.jpg'
-#     model='arn:aws:rekognition:eu-west-1:743551506018:project/moderation_custom_lables1/version/moderation_custom_lables1.2022-09-19T22.20.27/1663622427544'
+#     model='arn:aws:rekognition:****'
 #     min_confidence=7
 
 #     label_count=show_custom_labels(model,bucket,photo, min_confidence)
